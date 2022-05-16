@@ -1,5 +1,4 @@
 <?php
-
 	session_start();
 
 	require('src/log.php');
@@ -78,7 +77,7 @@
 
 				<?php if(isset($_SESSION['connect'])) { ?>
 			
-					<h1>Bonjour !</h1>
+					<h1>Bienvenue !</h1>
 
 					<?php
 						if(isset($_GET['success'])) {
@@ -91,6 +90,7 @@
 				<?php } else { ?>
 				
 					<h1>S'identifier</h1>
+					<p>Veuillez entrer vos informations</p>
 
 					<?php if(isset($_GET['error'])) {
 
@@ -103,12 +103,15 @@
 					<form method="post" action="index.php">
 						<input type="email" name="email" placeholder="Votre adresse email" required />
 						<input type="password" name="password" placeholder="Mot de passe" required />
-						<button type="submit">S'identifier</button>
+						<button type="submit">Se connecter</button>
 						<label id="option"><input type="checkbox" name="auto" checked />Se souvenir de moi</label>
+						</br>
+						<label id="job"><input type="radio" name="auto" checked />Commercial</label>
+						<label id="job"><input type="radio" name="auto" checked />Controleur de gestion</label>
 					</form>
 				
 
-					<p class="grey">Première visite sur Tarif-Transport  <a href="inscription.php">Inscrivez-vous</a>.</p>
+					<p class="grey">Première visite sur Tarif-Transports<br/><a href="inscription.php">Inscrivez-vous ici</a></p>
 				<?php } ?>
 		</div>
 	</section>

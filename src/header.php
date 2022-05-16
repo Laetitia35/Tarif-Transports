@@ -1,11 +1,11 @@
 <header>
-<div class="menu">
+    <div class="menu">
             <div class="logo">
-                <img src="IDE/images/logo.png" alt="">
+                <img src="design/logo.png" alt="logo">
             </div>
-            <div class="connection">
+            <div class="connexion">
                 <div class="login"></div>
                 <div class="register"></div>
             </div>
-</div>
+    </div>
 </header>

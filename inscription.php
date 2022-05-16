@@ -99,10 +99,13 @@
 				<input type="email" name="email" placeholder="Votre adresse email" required />
 				<input type="password" name="password" placeholder="Mot de passe" required />
 				<input type="password" name="password_two" placeholder="Retapez votre mot de passe" required />
+				</br>
+				<label id="job"><input type="radio" name="auto" checked />Commercial</label>
+				<label id="job"><input type="radio" name="auto" checked />Controleur de gestion</label>
 				<button type="submit">S'inscrire</button>
 			</form>
 
-			<p class="grey">Déjà inscrit ? <a href="index.php">Connectez-vous</a>.</p>
+			<p class="grey">Déjà inscrit ? <a href="index.php">Connectez-vous</a></p>
 		</div>
 	</section>
 
