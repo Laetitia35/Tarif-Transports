@@ -4,6 +4,7 @@ html {
 	font-family: arial;
 	height: 100%;
 	color: #999;
+	
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	background-image: url('../img/background.jpg');
+	background-image: url('design\background1.jpg');
 	background-size: cover;
 	background-position: center;
 	min-height: 100%;
